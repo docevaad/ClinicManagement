@@ -1,7 +1,6 @@
 ﻿CREATE TABLE [Patient].[Patient]
 (
 	[PatientId] INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
-	[FirstName] VARCHAR(50) NOT NULL,
-	[LastName] VARCHAR(50) NOT NULL,
-
+	[PersonId] INT FOREIGN KEY REFERENCES [Person].[Person]([PersonId]) NOT NULL,
+	[ModifiedDate] DATETIME NOT NULL
 )

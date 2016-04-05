@@ -1,13 +1,14 @@
 ﻿INSERT INTO [Core].[State] ([StateId],[Name]) VALUES ('AL','Alabama');
-INSERT INTO [Core].[State] ([StateId],[Name]) VALUES ('AK','Alabama');
-INSERT INTO [Core].[State] ([StateId],[Name]) VALUES ('AZ','Alabama');
-INSERT INTO [Core].[State] ([StateId],[Name]) VALUES ('AR','Alabama');
-INSERT INTO [Core].[State] ([StateId],[Name]) VALUES ('CA','Alabama');
-INSERT INTO [Core].[State] ([StateId],[Name]) VALUES ('CO','Alabama');
-INSERT INTO [Core].[State] ([StateId],[Name]) VALUES ('CT','Alabama');
-INSERT INTO [Core].[State] ([StateId],[Name]) VALUES ('DE','Alabama');
-INSERT INTO [Core].[State] ([StateId],[Name]) VALUES ('FL','Alabama');
-INSERT INTO [Core].[State] ([StateId],[Name]) VALUES ('GA','Alabama');
+INSERT INTO [Core].[State] ([StateId],[Name]) VALUES ('AK','Alaska');
+INSERT INTO [Core].[State] ([StateId],[Name]) VALUES ('AZ','Arizona');
+INSERT INTO [Core].[State] ([StateId],[Name]) VALUES ('AR','Arkansas');
+INSERT INTO [Core].[State] ([StateId],[Name]) VALUES ('CA','California');
+INSERT INTO [Core].[State] ([StateId],[Name]) VALUES ('CO','Colorado');
+INSERT INTO [Core].[State] ([StateId],[Name]) VALUES ('CT','Conneticut');
+INSERT INTO [Core].[State] ([StateId],[Name]) VALUES ('DE','Delaware');
+INSERT INTO [Core].[State] ([StateId],[Name]) VALUES ('FL','Florida');
+INSERT INTO [Core].[State] ([StateId],[Name]) VALUES ('GA','Georgia');
+/*
 INSERT INTO [Core].[State] ([StateId],[Name]) VALUES ('AL','Alabama');
 INSERT INTO [Core].[State] ([StateId],[Name]) VALUES ('AL','Alabama');
 INSERT INTO [Core].[State] ([StateId],[Name]) VALUES ('AL','Alabama');
@@ -28,3 +29,4 @@ INSERT INTO [Core].[State] ([StateId],[Name]) VALUES ('AL','Alabama');
 INSERT INTO [Core].[State] ([StateId],[Name]) VALUES ('AL','Alabama');
 INSERT INTO [Core].[State] ([StateId],[Name]) VALUES ('AL','Alabama');
 INSERT INTO [Core].[State] ([StateId],[Name]) VALUES ('AL','Alabama');
+*/

@@ -62,6 +62,7 @@
     <Folder Include="Person" />
     <Folder Include="StaticData" />
     <Folder Include="TestData" />
+    <Folder Include="Clinic" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Core\Address.sql" />
@@ -70,8 +71,14 @@
     <Build Include="Patient\PatientSchema.sql" />
     <Build Include="Patient\Patient.sql" />
     <Build Include="Person\PersonSchema.sql" />
+    <Build Include="Person\Person.sql" />
+    <Build Include="Clinic\ClinicSchema.sql" />
+    <Build Include="Clinic\Clinic.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="StaticData\StateData.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Script.PostDeployment.sql" />
   </ItemGroup>
 </Project>
