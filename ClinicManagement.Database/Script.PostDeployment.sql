@@ -11,3 +11,4 @@ Post-Deployment Script Template
 */
 
 :r ".\StaticData\StateData.sql"
+:r ".\StaticData\DayData.sql"

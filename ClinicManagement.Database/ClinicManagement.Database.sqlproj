@@ -74,9 +74,13 @@
     <Build Include="Person\Person.sql" />
     <Build Include="Clinic\ClinicSchema.sql" />
     <Build Include="Clinic\Clinic.sql" />
+    <Build Include="Clinic\ClinicSchedule.sql" />
+    <Build Include="Core\Day.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="StaticData\StateData.sql" />
+    <None Include="ClinicManagement.Database.publish.xml" />
+    <None Include="StaticData\DayData.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Script.PostDeployment.sql" />
