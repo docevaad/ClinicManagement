@@ -10,5 +10,9 @@ Post-Deployment Script Template
 --------------------------------------------------------------------------------------
 */
 
+/* Static Data */
 :r ".\StaticData\StateData.sql"
 :r ".\StaticData\DayData.sql"
+
+/* Test Data */
+:r ".\TestData\PersonTestData.sql"

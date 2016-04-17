@@ -76,11 +76,13 @@
     <Build Include="Clinic\Clinic.sql" />
     <Build Include="Clinic\ClinicSchedule.sql" />
     <Build Include="Core\Day.sql" />
+    <Build Include="Patient\vPatientPerson.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="StaticData\StateData.sql" />
     <None Include="ClinicManagement.Database.publish.xml" />
     <None Include="StaticData\DayData.sql" />
+    <None Include="TestData\PersonTestData.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Script.PostDeployment.sql" />
