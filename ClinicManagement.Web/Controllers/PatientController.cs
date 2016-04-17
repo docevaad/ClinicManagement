@@ -13,7 +13,7 @@ namespace ClinicManagement.Web.Controllers
     /// PatientController class
     /// </summary>
     [RoutePrefix("api/patient")]
-    public class PatientController
+    public class PatientController : ApiController
     {
         public readonly PatientService m_PatientService;
 

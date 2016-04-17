@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using ClinicManagement.Web.App_Start;
 using System.Web.Http;
-using System.Web.Routing;
 
 namespace ClinicManagement.Web
 {
@@ -12,6 +8,7 @@ namespace ClinicManagement.Web
         protected void Application_Start()
         {
             GlobalConfiguration.Configure(WebApiConfig.Register);
+            AutofacWebApiConfiguration.Initialize(GlobalConfiguration.Configuration);
         }
     }
 }
