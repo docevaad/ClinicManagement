@@ -83,6 +83,7 @@
     <None Include="ClinicManagement.Database.publish.xml" />
     <None Include="StaticData\DayData.sql" />
     <None Include="TestData\PersonTestData.sql" />
+    <None Include="TestData\PatientTestData.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Script.PostDeployment.sql" />

@@ -115,6 +115,10 @@
       <HintPath>..\packages\Tortuga.Chain.Core.0.14.5949.33710\lib\net46\Tortuga.Chain.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Tortuga.Chain.SqlServer, Version=0.15.5950.17572, Culture=neutral, PublicKeyToken=8769fd32a2872cf0, processorArchitecture=MSIL">
+      <HintPath>..\packages\Tortuga.Chain.SqlServer.0.15.5950.17562\lib\net46\Tortuga.Chain.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json">

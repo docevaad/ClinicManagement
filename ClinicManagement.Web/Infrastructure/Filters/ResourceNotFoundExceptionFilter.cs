@@ -9,6 +9,10 @@ namespace ClinicManagement.Web.Infrastructure.Filters
 {
     public class ResourceNotFoundExceptionFilter : ExceptionFilterAttribute
     {
+        /// <summary>
+        /// Raises the exception event.
+        /// </summary>
+        /// <param name="actionExecutedContext">The context for the action.</param>
         public override void OnException(HttpActionExecutedContext actionExecutedContext)
         {
             if (actionExecutedContext.Exception is MissingDataException)

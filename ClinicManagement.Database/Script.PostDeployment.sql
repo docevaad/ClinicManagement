@@ -16,3 +16,4 @@ Post-Deployment Script Template
 
 /* Test Data */
 :r ".\TestData\PersonTestData.sql"
+:r ".\TestData\PatientTestData.sql"

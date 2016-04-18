@@ -14,7 +14,7 @@ namespace ClinicManagement.Services
     public class PatientService
     {
         private readonly SqlServerDataSource m_DataSource;
-        private const string PatientPersonView = "vPatientPerson";
+        private const string PatientPersonView = "Patient.vPatientPerson";
 
         /// <summary>
         /// Initializes a new instance of the <see cref="PatientService"/> class.
